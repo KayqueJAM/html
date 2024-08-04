@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('../imagens/back-print.jpg');
+}
+Main {
+    width: 90vw;
+    Background-color: white;
+    margin: 0 5vw;
+    border: 2px solid #000000;
+    top: 0px;
+    left: 0px;
+    transform: translate(0, 0);
+}
+Main h1 {
+    font-family: 'Courier New', monospace;
+  color: black;
+  text-shadow: none;
+}
+main::after {
+content: "essa impressao foi feita atraves do site www.cursoemvideo.com"
+}
