@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    Padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: darkred;
+    padding: 10px 20px;
+    Color: white;
+}
+header h1 {
+    font-weight: 200;
+}
+header span#life {
+    font-weight: bold;
+}
+header p {
+    font-weight: bold;
+}
+main {
+    background-color: lightpink;
+    padding: 0 5px;
+    height: 100vh ;
+}
+section#perfil {
+    background-color: white;
+    position: relative;
+}
+section#perfil div#foto-perfil{
+    display: inline-block;
+    height: 125px;
+    width: 120px;
+    text-align: center;
+}
+div#foto-perfil img {
+    Width: 105px;
+    border: 1px solid white;
+    outline: 1px solid lightpink;
+    margin-top: 15px;
+}
+a#index {
+    position: absolute;
+    left: 17px;
+    font-size:0.6em;
+    bottom: 13px;
+    color: darkred;
+}
+
+section#perfil div#dados {
+    display: inline-block;
+    vertical-align: top;
+}
+section#perfil div#dados > p#nome-perfil{
+    display: inline-block;
+    margin: 16px 0;
+    font-size: 1.1em;
+    Color: darkred;
+    font-weight: 400;
+}
+span#info {
+    display: inline-block;
+    background-color: lightpink;
+    margin: 0 -10px;
+    padding-left: 14.3px;
+    padding-right: 60px
+}
+span#info p {
+    font-size: 0.8em;
+    padding: 1px 0;
+}
+div#social div.social{
+    margin: 10px 5px;
+    display: inline-block;
+    width: 60px;
+}
+div#social div.social img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: -3px;
+}
+div.social img:active {
+}
+div.social img:hover {
+    Outline: 1px solid darkred;    
+    box-sizing: border-box;
+}
+div#social div.social a {
+    color: lightpink;
+    font-size: 0.661em;    
+}
+section#ciclo-social {
+    width: 28vw;
+    height: 100vh;
+    display: inline-block;
+}
+div.ciclo-social a{
+    color: darkred;
+    text-decoration: none;
+    display:inline-block;
+}
+div.ciclo-social p{
+    display: inline-block; 
+    margin: 0 1px;
+    font-size: 0.6em;
+}
+div.ciclo-social a > p{
+    display: inline-block; 
+    font-size: 0.7em;
+    color: darkred;
+}
+div.ciclo-social img {
+    width: 40px;
+    height: 40px;
+}
+section#flist {
+    display: inline-block;
+    width: 68vw;
+    vertical-align: top;
+}
+#flist h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+#flist a {
+    display: block;
+    background-color: white;
+    border: 0.5px solid #00000080;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+#flist > a:hover {
+    outline: 1px solid darkred;
+    cursor: pointer;
+}
+#flist > a > img {
+  width: 40px;
+  height: 40px;
+}
+#flist > a > p {
+    display: inline;
+    vertical-align: top;
+    font-size: 0.7em;
+    color: darkred;
+}

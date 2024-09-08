@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    Padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: darkred;
+    padding: 10px 20px;
+    Color: white;
+}
+header h1 {
+    font-weight: 200;
+}
+header span#life {
+    font-weight: bold;
+}
+header p {
+    font-weight: bold;
+}
+main {
+    background-color: lightpink;
+    padding: 0 5px;
+}
+section#perfil {
+    background-color: white;
+    border: 1px solid #00000055;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+section#perfil div#foto-perfil{
+    display: inline-block;
+    
+    text-align: center;
+}
+div#foto-perfil img {
+    Width: 105px;
+    height: 100%;
+    border: 1px solid white;
+    outline: 1px solid lightpink;
+    margin-top: 15px;
+     
+}
+section#perfil div#dados {
+    display: inline-block;
+    vertical-align: top;
+}
+section#perfil div#dados > p#nome-perfil{
+    display: inline-block;
+    margin: 16px 0;
+    font-size: 1.1em;
+    Color: darkred;
+    font-weight: 400;
+}
+span#info {
+    display: inline-block;
+    background-color: lightpink;
+    margin: 0 -10px;
+    padding-left: 14.3px;
+    padding-right: 60px
+}
+span#info p {
+    font-size: 0.8em;
+    
+    margin: 3px;
+}
+div#social div.social{
+    margin: 8px 0;
+    display: inline-block;
+    width: 60px;
+    
+}
+div#social div.social img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: -3px;
+}
+div.social img:hover {
+    Outline: 1px solid darkred;    
+    box-sizing: border-box;
+}
+div#social div.social a {
+    color: darkred;
+    font-size: 0.661em;    
+}
+
+section#pub {
+    display: inline-block;
+    margin: 15px;
+    width: 400px;
+    
+}
+div.pub p {
+    color: darkred;
+    background-color: #bf7f9681;
+    font-size: 0.7em;
+    margin: 10px 0;
+    padding: 10px 5px;
+}
+div.pub img {
+    width: 100%;
+    height: 100px;
+}
+
+
+section#ciclo-social {
+    width: 28vw;
+    height: 100vh;
+    display: inline-block;
+}
+div.ciclo-social a{
+    color: darkred;
+    text-decoration: none;
+    display:inline-block;
+}
+div.ciclo-social p{
+    display: inline-block; 
+    margin: 0 1px;
+    font-size: 0.6em;
+}
+div.ciclo-social a > p{
+    display: inline-block; 
+    font-size: 0.7em;
+    color: darkred;
+}
+div.ciclo-social img {
+    width: 40px;
+    height: 40px;
+}
+div.ciclo-social hr {
+    width: 90%;
+    border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+section#msg {
+    display: inline-block ;
+    width: 68vw;
+    vertical-align: top;
+}
+section#msg h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+div.msg {
+    background-color: white;
+    padding: 2px;
+    border: 0.5px solid #00000050;
+    margin-bottom: 10px;
+}
+div.cmt-id {
+    position: relative;
+}
+div.msg img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+div.msg a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.8em;
+    
+    color: darkred;
+}
+div.msg a > p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px
+}
+div.msg p.act {
+    display: inline;
+    color: #00000060;
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 8px;
+    left: 45px
+}
+div.msg p.cmt {
+    font-size: 0.8em;
+}

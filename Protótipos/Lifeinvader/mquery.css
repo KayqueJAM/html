@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) {
+    header {
+        padding: 10px 350px; 
+    }
+    section#perfil {
+        margin-left: 350px;
+        width: 600px;
+        
+    }
+    div#foto-perfil {
+        height: 100%;
+        width: 150px;
+        padding: 0 25px;
+        
+    }
+    div#foto-perfil img {
+        width: 130px;
+    }
+    div#dados {
+        font-size: 1.4em;
+    }
+    span#info {
+        margin-left: -39.5px;
+        padding: 3px 37px;
+        padding-right: 234px;
+        font-size: 0.69em;
+    }
+    div#social div.social {
+        margin-right: 30px;
+        
+    }
+    div#social div.social a {
+        font-size: 0.55em;
+        font-weight: 500;
+    }
+    div#social div.social img {
+        width: 70px;
+    }
+    section#ciclo-social {
+        margin-left: 350px;
+        width: 204px;
+    }
+    section#msg {
+        width: 392.5px;
+    }
+    
+}
